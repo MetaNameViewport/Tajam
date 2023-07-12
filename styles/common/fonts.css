@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
+
+:root {
+    --psd-13px-font: calc(100vw * 13 / 1600);
+    --psd-14px-font: calc(100vw * 14 / 1600);
+    --psd-15px-font: calc(100vw * 15 / 1600);
+    --psd-16px-font: calc(100vw * 16 / 1600);
+    --psd-22px-font: calc(100vw * 22 / 1600);
+    --psd-30px-font: calc(100vw * 30 / 1600);
+    --psd-32px-font: calc(100vw * 32 / 1600);
+    --psd-100px-font: calc(100vw * 100 / 1600);
+
+    --psd-22px-line: calc(100vw * 22 / 1600);
+    --psd-24px-line: calc(100vw * 24 / 1600);
+    --psd-26px-line: calc(100vw * 26 / 1600);
+}
+
+.roboto-13px-1d2-300-upper-white-0d61 {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-13px-font);
+    line-height: 1.2;
+    font-weight: 300;
+
+    text-transform: uppercase;
+
+    color: #fafafa;
+
+    opacity: 0.61;
+}
+
+.roboto-13px-22px-300-upper-white-0d7 {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-13px-font);
+    line-height: var(--psd-22px-font);
+    font-weight: 300;
+
+    text-transform: uppercase;
+
+    color: white;
+    
+    opacity: 0.7;
+}
+
+.roboto-13px-1d2-900-0d025em-upper-white {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-13px-font);
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.roboto-14px-1d2-300-0d05em {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-14px-font);
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.roboto-14px-1d2-900-0d05em-upper-black {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-14px-font);
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+
+    text-transform: uppercase;
+
+    color: #413d4b;
+}
+
+.roboto-14px-1d2-900-0d05em-upper-white-0d87 {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-14px-font);
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+
+    text-transform: uppercase;
+
+    color: white;
+
+    opacity: 0.87;
+}
+
+.roboto-14px-22px-300-0d03em-gray-0d74 {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-14px-font);
+    line-height: var(--psd-22px-line);
+    font-weight: 300;
+    letter-spacing: 0.03em;
+
+    color: #413d4b;
+
+    opacity: 0.74;
+}
+
+.roboto-14px-22px-300-0d05em-gray-0d74 {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-14px-font);
+    line-height: var(--psd-22px-line);
+    font-weight: 300;
+    letter-spacing: 0.05em;
+
+    color: #413d4b;
+
+    opacity: 0.74;
+}
+
+.roboto-14px-22px-900-0d05em-white {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-14px-font);
+    line-height: var(--psd-22px-font);
+    font-weight: 900;
+    letter-spacing: 0.05em;
+
+    color: white;
+}
+
+.roboto-14px-24px-300-0d05em-white {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-14px-font);
+    line-height: var(--psd-24px-line);
+    font-weight: 300;
+    letter-spacing: 0.05em;
+
+    color: white;
+
+    opacity: 0.74;
+}
+
+.roboto-14px-26px-300-0d025em-white {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-14px-font);
+    line-height: var(--psd-26px-line);
+    font-weight: 300;
+    letter-spacing: 0.025em;
+
+    color: white;
+
+    opacity: 0.9; /* looks better */
+}
+
+.roboto-14px-26px-400-0d025em-white {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-14px-font);
+    line-height: var(--psd-26px-line);
+    font-weight: 400;
+    letter-spacing: 0.025em;
+
+    color: white;
+}
+
+.roboto-15px-26px-900-0d05em-upper-white {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-15px-font);
+    line-height: var(--psd-26px-line);
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.roboto-16px-1d2-900-0d05em-upper-white {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-16px-font);
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.roboto-30px-1d2-100 {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--psd-30px-font);
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+.playfair-14px-1d2-400-0d075em-gray {
+    font-family: 'Playfair Display';
+    font-size: var(--psd-14px-font);
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+
+    opacity: 0.74;
+}
+
+.playfair-16px-26px-400-0d025em-white-0d85 {
+    font-family: 'Playfair Display';
+    font-size: var(--psd-16px-font);
+    line-height: var(--psd-26px-line);
+    font-weight: 400;
+    letter-spacing: 0.025em;
+
+    text-align: center;
+
+    color: white;
+
+    opacity: 0.85;
+}
+
+.playfair-22px-1d2-400-0d05em-upper {
+    font-family: 'Playfair Display';
+    font-size: var(--psd-22px-font);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+
+    text-transform: uppercase;
+}
+
+.playfair-32px-1d2-700-0d01em-white {
+    font-family: 'Playfair Display';
+    font-size: var(--psd-32px-font);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+
+    color: white;
+}
+
+.playfair-100px-22px-400-0d03em-white-0d9 {
+    font-family: 'Playfair Display';
+    font-size: var(--psd-100px-font);
+    line-height: var(--psd-22px-line);
+    font-weight: 400;
+    letter-spacing: 0.03em;
+
+    color: white;
+
+    opacity: 0.9;
+}
+
+.hammersmith-16px-1d2-400-upper-blue {
+    font-family: 'Hammersmith One';
+    text-transform: uppercase;
+    font-size: var(--psd-16px-font);
+    line-height: 1.2;
+    font-weight: 400;
+
+    color: #00e0d0;
+}   

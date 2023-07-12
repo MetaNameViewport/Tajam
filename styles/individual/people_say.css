@@ -1,0 +1,117 @@
+.people-say {
+    width: 100%;
+    height: 74.62686567164179%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(
+    to right bottom,
+    var(--bg-gradient-color-1),
+    var(--bg-gradient-color-2)
+    ), url('../../images/individual/people_say/People_say_bg.png');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#people-say-content {
+    height: 75%;
+}
+
+#people-say-content h2 {
+    padding-top: 2%;
+}
+
+.reviews-carousel {
+    width: 80%;
+    height: 48%;
+
+    display: flex;
+
+    overflow-x: scroll;
+}
+
+.review {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-shrink: 0;
+}
+
+.review p {
+    width: 100%;
+}
+
+.reviever-info {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews-carousel-controlls {
+    width: 40%;
+    height: 20%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews-controlls-buttons {
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    order: 2;
+
+    overflow-x: scroll;
+    transition: .4s;
+}
+
+.reviews-controlls-button {
+    width: calc(100vw * 0.028125);
+    height: calc(100vw * 0.028125);
+
+    flex-shrink: 0;
+    align-self: center;
+
+    background: transparent;
+
+    border: none;
+
+    transition: transform .4s, width .2s, height .2s;
+}
+
+.reviews-controlls-button img {
+    width: 100%;
+    height: 100%;
+}
+
+.reviews-controlls-arrow {
+    width: calc(100vw * 0.006875);
+
+    background: transparent;
+
+    border: none;
+}
+
+.reviews-controlls-arrow img {
+    width: 100%;
+    height: 100%;
+}
+
+.reviews-selected {
+    width: calc(100vw * 0.04375);
+    height: calc(100vw * 0.04375);
+}

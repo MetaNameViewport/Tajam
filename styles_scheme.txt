@@ -1,0 +1,22 @@
+*some element* {
+    content (for pseudo-elements);
+
+    width, height;
+
+    display and display properties (flex, flex-directrion, justify-content etc.);\
+
+    margin, padding;
+
+    font and font properties: {
+        font-family, font-size, line-height, font-weight, letter-spacing;
+        text-transform, text-decoration etc.
+    }
+    
+    colors and background (font color, background color, background image, background-size etc.);
+
+    border and border properties (outline too);
+
+    opacity;
+
+    transition properties;
+}

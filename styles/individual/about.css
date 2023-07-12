@@ -1,0 +1,33 @@
+.about {
+    width: 100%;
+    height: 59.70149253731343%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left {
+    width: 39%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left img{
+    width: calc(100vw * 0.146875);
+    height: calc(100vw * 0.143125);
+}
+
+.about-right {
+    width: 56%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 3%;
+}

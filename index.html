@@ -1,0 +1,471 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tajam</title>
+
+    <link rel="stylesheet" href="styles/common/fonts.css">
+    <link rel="stylesheet" href="styles/common/common.css">
+
+
+    <link rel="stylesheet" href="styles/individual/header.css">
+    <link rel="stylesheet" href="styles/individual/about.css">
+    <link rel="stylesheet" href="styles/individual/about-video.css">
+    <link rel="stylesheet" href="styles/individual/expertise.css">
+    <link rel="stylesheet" href="styles/individual/teams.css">
+    <link rel="stylesheet" href="styles/individual/works.css">
+    <link rel="stylesheet" href="styles/individual/people_say.css">
+    <link rel="stylesheet" href="styles/individual/contact.css">
+    <link rel="stylesheet" href="styles/individual/footer.css">
+
+    <script src="scripts/header.js" defer></script>
+    <script src="scripts/about-video.js" defer></script>
+    <script src="scripts/people_say.js" defer></script>
+</head>
+
+<body>
+    <!--
+        Notice: Marsy (markupeasy.ru) that i use to open .psd files somewhere
+        doesn't display images, so i used background color instead of them
+        (bg-colors were chosen with Marsy as well)
+    -->
+
+    <div class="header" id="home">
+        <div class="content" style="height: 90%;">
+            <div class="fake-header"></div>
+            <!-- Fake header used because real header is out of main styling thread,
+            resulting in the fact that the block "header-carousel" is pressed up -->
+
+            <header>
+                <div class="content" id="header-content">
+                    <div class="tajam-logo">
+                        <h2 class="roboto-30px-1d2-100">tajam</h2>
+                        <img src="images/common/Tajam_logo.png" alt="">
+                    </div>
+    
+                    <nav class="header-nav">
+                        <button value="home" class="roboto-13px-1d2-900-0d025em-upper-white" style="color: #00e0d0;">Home</button>
+                        <button value="about" class="roboto-13px-1d2-900-0d025em-upper-white">About</button>
+                        <button value="expertise" class="roboto-13px-1d2-900-0d025em-upper-white">Expertise</button>
+                        <button value="teams" class="roboto-13px-1d2-900-0d025em-upper-white">Teams</button>
+                        <button value="works" class="roboto-13px-1d2-900-0d025em-upper-white">Works</button>
+                        <button value="peopleSay" class="roboto-13px-1d2-900-0d025em-upper-white">People say</button>
+                        <button value="contact" class="roboto-13px-1d2-900-0d025em-upper-white">Contact</button>
+                    </nav>
+                </div>
+            </header>
+    
+            <div class="header-carousel">
+                <div class="header-carousel-block" id="block-1">
+                    <h1 class="playfair-32px-1d2-700-0d01em-white">We Are Awesome Creative Agency</h1>
+                    <p class="roboto-14px-24px-300-0d05em-white">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                    <button class="blue-border-button hammersmith-16px-1d2-400-upper-blue">Learn more</button>
+                </div>
+    
+                <div class="header-carousel-block" id="block-2">block-2</div>
+                <div class="header-carousel-block" id="block-3">block-3</div>
+                <div class="header-carousel-block" id="block-4">block-4</div>
+            </div>
+    
+            <div class="header-carousel-controlls-buttons">
+                <button class="header-controlls-button header-button-selected" id="to-block-1"></button>
+                <button class="header-controlls-button" id="to-block-2"></button>
+                <button class="header-controlls-button" id="to-block-3"></button>
+                <button class="header-controlls-button" id="to-block-4"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="content" style="height: 85%; flex-direction: row;">
+            <div class="about-left">
+                <img src="images/individual/about/logo.png" alt="logo">
+            </div>
+
+            <div class="about-right">
+                <h2 class="playfair-22px-1d2-400-0d05em-upper">Our story</h2>
+
+                <p class="roboto-14px-22px-300-0d03em-gray-0d74">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+                <p class="roboto-14px-22px-300-0d03em-gray-0d74">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                
+                <div>
+                    <button class="blue-border-button hammersmith-16px-1d2-400-upper-blue">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-video" id="about-video">
+        <video preload="metadata" id="video" controls>
+            <source src="videos/About_video.mp4" type="video/mp4">
+        </video>
+    
+        <div class="video-play-button">
+            <div>
+                <img src="images/individual/about_video/play.png" alt="play">
+            </div>
+    
+            <h3 class="roboto-16px-1d2-900-0d05em-upper-white">Watch our story</h3>
+        </div>
+    </div>
+
+    <div class="expertise" id="expertise">
+        <div class="content" style="height: 80%; justify-content: left;">
+            <div class="title-with-subtitle" style="margin-bottom: 10%;">
+                <h2 class="playfair-22px-1d2-400-0d05em-upper" style="color: #413d4b;">Expertise</h2>
+                <h3 class="playfair-14px-1d2-400-0d075em-gray" style="color: #2f2d35;">Lorem ipsum dolor sit amet proin gravida nibh vel velit</h3>
+            </div>
+
+            <div class="expertise-cards">
+                <div class="expertise-card">
+                    <div class="expertise-expertise-img-container">
+                        <img src="images/individual/expertise/icon1.png" alt="0" style="width: calc(0.0625vw * 49);">
+                    </div>
+                    
+                    <h2 class="roboto-14px-1d2-900-0d05em-upper-black">Web design & development</h2>
+                    <p class="roboto-14px-22px-300-0d05em-gray-0d74">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+
+                <div class="expertise-card">
+                    <div class="expertise-img-container">
+                        <img src="images/individual/expertise/icon2.png" alt="0" style="width: calc(0.0625vw * 50);">
+                    </div>
+
+                    <h2 class="roboto-14px-1d2-900-0d05em-upper-black">Branding identity</h2>
+                    <p class="roboto-14px-22px-300-0d05em-gray-0d74">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+
+                <div class="expertise-card">
+                    <div class="expertise-img-container">
+                        <img src="images/individual/expertise/icon3.png" alt="0" style="width: calc(0.0625vw * 28);">
+                    </div>
+                    
+                    <h2 class="roboto-14px-1d2-900-0d05em-upper-black">Mobile app</h2>
+                    <p class="roboto-14px-22px-300-0d05em-gray-0d74">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+
+                <div class="expertise-card">
+                    <div class="expertise-img-container">
+                        <img src="images/individual/expertise/icon4.png" alt="0" style="width: calc(0.0625vw * 50);">
+                    </div>
+
+                    <h2 class="roboto-14px-1d2-900-0d05em-upper-black">Search engine optimization</h2>
+                    <p class="roboto-14px-22px-300-0d05em-gray-0d74">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+
+                <div class="expertise-card">
+                    <div class="expertise-img-container">
+                        <img src="images/individual/expertise/icon5.png" alt="0" style="width: calc(0.0625vw * 41);">
+                    </div>
+                    
+                    <h2 class="roboto-14px-1d2-900-0d05em-upper-black">Game development</h2>
+                   <p class="roboto-14px-22px-300-0d05em-gray-0d74">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+
+                <div class="expertise-card">
+                    <div class="expertise-img-container">
+                        <img src="images/individual/expertise/icon6.png" alt="0" style="width: calc(0.0625vw * 50);">
+                    </div>
+
+                    <h2 class="roboto-14px-1d2-900-0d05em-upper-black">Made with love</h2>
+                   <p class="roboto-14px-22px-300-0d05em-gray-0d74">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="teams" id="teams">
+        <div class="content" style="height: 75%">
+            <div class="title-with-subtitle" id="new-after-color">
+                <h2 class="playfair-22px-1d2-400-0d05em-upper" style="color: white;">Meet our amazing team</h2>
+                <h3 class="playfair-14px-1d2-400-0d075em-gray" style="color: #f9f9f9;">Lorem ipsum dolor sit amet proin gravida nibh vel velit</h3>
+            </div>
+
+            <div class="team-team-members">
+                <div class="team-member">
+                    <div class="team-member-picture"></div>
+                    <div class="team-member-text">
+                        <h4 class="roboto-14px-1d2-900-0d05em-upper-white-0d87">Semf ucuk</h4>
+                        <span class="roboto-13px-1d2-300-upper-white-0d61">Ceo & founder</span>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-member-picture"></div>
+                    <div class="team-member-text">
+                        <h4 class="roboto-14px-1d2-900-0d05em-upper-white-0d87">Dik adalin</h4>
+                        <span class="roboto-13px-1d2-300-upper-white-0d61">Engineering</span>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-member-picture"></div>
+                    <div class="team-member-text">
+                        <h4 class="roboto-14px-1d2-900-0d05em-upper-white-0d87">Jeng kol</h4>
+                        <span class="roboto-13px-1d2-300-upper-white-0d61">Designer</span>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-member-picture"></div>
+                    <div class="team-member-text">
+                        <h4 class="roboto-14px-1d2-900-0d05em-upper-white-0d87">Pet romak</h4>
+                        <span class="roboto-13px-1d2-300-upper-white-0d61">Marketing</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teams-footer">
+                <span class="roboto-14px-1d2-300-0d05em" style="color: #f3f3f3;">Become part of our dream team, let’s join us !</span>
+
+                <div>
+                    <button class="blue-border-button hammersmith-16px-1d2-400-upper-blue">We are hiring</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="works" id="works">
+        <div class="content" id="works-content">
+            <h2 class="playfair-22px-1d2-400-0d05em-upper">Our works</h2>
+            
+            <a href="#" class="roboto-14px-1d2-300-0d05em" style="color: #413d4b; text-decoration: none;">
+                See All Project in dribbble
+                <img src="images/individual/works/arrow.png" alt=">">
+            </a>
+        </div>
+        
+        <div class="works-images">
+            <div style="background: rgb(182, 182, 182);"></div>
+            <div style="background: rgb(172, 172, 172);"></div>
+            <div style="background: rgb(161, 161, 161);"></div>
+            <div style="background: rgb(138, 138, 138);"></div>
+            <div style="background: rgb(182, 182, 182);"></div>
+            <div style="background: rgb(164, 164, 164);"></div>
+
+            <div style="background: rgb(164, 164, 164);"></div>
+            <div style="background: rgb(182, 182, 182);"></div>
+            <div style="background: rgb(138, 138, 138);"></div>
+            <div style="background: rgb(161, 161, 161);"></div>
+            <div style="background: rgb(172, 172, 172);"></div>
+            <div style="background: rgb(182, 182, 182);"></div>
+        </div>
+
+        <div class="works-footer">
+            <div>
+                <button class="blue-border-button hammersmith-16px-1d2-400-upper-blue">Load more</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="people-say" id="peopleSay">
+        <div class="content" id="people-say-content">
+            <h2 class="playfair-100px-22px-400-0d03em-white-0d9">“</h2>
+
+            <div class="reviews-carousel">
+                <div class="review">Review 1</div>
+                <div class="review">Review 2</div>
+
+                <div class="review">
+                    <p class="playfair-16px-26px-400-0d025em-white-0d85">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
+
+                    <div class="reviever-info">
+                        <h3 class="roboto-14px-22px-900-0d05em-white" style="text-transform: uppercase;">Jane Galadriel</h3>
+                        <h4 class="roboto-13px-22px-300-upper-white-0d7">Ceo tengkurep</h4>
+                    </div>
+                </div>
+
+                <div class="review">Review 4</div>
+                <div class="review">Review 5</div>
+            </div>
+
+            <div class="reviews-carousel-controlls">
+                <div class="reviews-controlls-buttons">
+                    <button class="reviews-controlls-button reviews-selected" id="slide-1">
+                        <img src="images/individual/people_say/face1.png" alt="">
+                    </button>
+
+                    <button class="reviews-controlls-button" id="slide-2">
+                        <img src="images/individual/people_say/face2.png" alt="">
+                    </button>
+
+                    <button class="reviews-controlls-button" id="slide-3">
+                        <img src="images/individual/people_say/face3.png" alt="">
+                    </button>
+
+                    <button class="reviews-controlls-button" id="slide-4">
+                        <img src="images/individual/people_say/face4.png" alt="">
+                    </button>
+
+                    <button class="reviews-controlls-button" id="slide-5">
+                        <img src="images/individual/people_say/face5.png" alt="">
+                    </button>
+                </div>
+            
+                <button class="reviews-controlls-arrow" id="left" style="order: 0;">
+                    <img src="images/individual/people_say/arrow_left.png" alt="<">
+                </button>
+                
+                <button class="reviews-controlls-arrow" id="right" style="order: 3;">
+                    <img src="images/individual/people_say/arrow_right.png" alt=">">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="content" id="contact-content">
+            <div class="contact-left">
+                <h2 class="playfair-22px-1d2-400-0d05em-upper">Give us a good news</h2>
+
+                <form action="#" method="post">
+                    <div class="form-main">
+                        <input type="text" id="name" class="form-input roboto-14px-1d2-300-0d05em" placeholder="Name" tabindex="1" required>
+                        <input type="email" id="email" class="form-input roboto-14px-1d2-300-0d05em" placeholder="Email" tabindex="2" required>
+                        <input type="text" id="subject" class="form-input roboto-14px-1d2-300-0d05em" placeholder="Subject" tabindex="3" required>
+
+                        <textarea name="message" id="message" cols="30" rows="10" class="roboto-14px-1d2-300-0d05em" placeholder="Your message" tabindex="4"></textarea>
+                    </div>
+                    
+                    <div><button class="blue-border-button hammersmith-16px-1d2-400-upper-blue" type="submit">Submit</button></div>
+                </form>
+            </div>
+
+            <div class="contact-right">
+                <h2 class="playfair-22px-1d2-400-0d05em-upper">Our happy client</h2>
+                
+                <div class="contact-right-images">
+                    <div>
+                        <img src="images/individual/contact/zara.png" alt="Zara" style="width: calc(0.0625vw * 162);">
+                    </div>
+
+                    <div>
+                        <img src="images/individual/contact/mango.png" alt="Mango" style="width: calc(0.0625vw * 138);">
+                    </div>
+    
+                    <div>
+                        <img src="images/individual/contact/barneys_new_york.png" alt="Barneys New York" style="width: calc(0.0625vw * 154);">
+                    </div>
+
+                    <div>
+                        <img src="images/individual/contact/gucci.png" alt="Gucci" style="width: calc(0.0625vw * 140);">
+                    </div>
+    
+                    <div>
+                        <img src="images/individual/contact/calvin_klein.png" alt="Calvin Klein" style="width: calc(0.0625vw * 151);">
+                    </div>
+
+                    <div>
+                        <img src="images/individual/contact/nike.png" alt="Nike" style="width: calc(0.0625vw * 95);">
+                    </div>
+    
+                    <div>
+                        <img src="images/individual/contact/converse.png" alt="Converse" style="width: calc(0.0625vw * 113);">
+                    </div>
+
+                    <div>
+                        <img src="images/individual/contact/puma.png" alt="Puma" style="width: calc(0.0625vw * 114);">
+                    </div>
+    
+                    <div>
+                        <img src="images/individual/contact/levis.png" alt="Levi's" style="width: calc(0.0625vw * 109);">
+                    </div>
+
+                    <div>
+                        <img src="images/individual/contact/billabong.png" alt="BillaBong" style="width: calc(0.0625vw * 130);">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-top">
+                <div style="display: flex; align-items: center;">
+                    <div class="tajam-logo">
+                        <h2 class="roboto-30px-1d2-100">tajam</h2>
+                        <img src="images/common/Tajam_logo.png" alt="">
+                    </div>
+                </div>
+    
+                <div style="display: flex; align-items: center;">
+                    <h2 class="roboto-15px-26px-900-0d05em-upper-white">Our studio</h2>
+                </div>
+    
+                <div style="display: flex; align-items: center;">
+                    <h2 class="roboto-15px-26px-900-0d05em-upper-white">Stay in touch</h2>
+                </div>
+    
+                <div>
+                    <p class="roboto-14px-26px-300-0d025em-white">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+                </div>
+    
+                <div style="display: grid; grid-template-columns: 1fr 7fr; grid-template-rows: 3fr 1fr;">
+                    <div>
+                        <img src="images/individual/footer/pointer.png" style="width: calc(100vw * 0.00875);" alt=".">
+                    </div>
+    
+                    <div>
+                        <p class="roboto-14px-26px-300-0d025em-white">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
+                    </div>
+    
+                    <div>
+                        <img src="images/individual/footer/phone.png" style="width: calc(100vw * 0.010625);" alt="">
+                    </div>
+    
+                    <div>
+                        <p class="roboto-14px-26px-300-0d025em-white">(+62) 21-2224 3333</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <form class="subscribe-form" action="#" method="post">
+                        <input type="email" name="subscribe" id="subscribe" placeholder="Subscribe our newsletter" class="roboto-14px-26px-300-0d025em-white" required>
+
+                        <button type="submit">
+                            <img src="images/individual/footer/message.png" style="width: calc(100vw * 0.015625);" alt="">
+                        </button>
+                    </form>
+
+                    <div class="footer-links">
+                        <a href="#">
+                            <img src="images/individual/footer/facebook.png" style="width: calc(0.0625vw * 7);">
+                        </a>
+
+                        <a href="#">
+                            <img src="images/individual/footer/twitter.png" style="width: calc(0.0625vw * 14);">
+                        </a>
+                        
+                        <a href="#">
+                            <img src="images/individual/footer/dribbble.png" style="width: calc(0.0625vw * 16);">
+                        </a>
+
+                        <a href="#">
+                            <img src="images/individual/footer/instagram.png" style="width: calc(0.0625vw * 15);">
+                        </a>
+
+                        <a href="#">
+                            <img src="images/individual/footer/google.png" style="width: calc(0.0625vw * 15);">
+                        </a>
+
+                        <a href="#">
+                            <img src="images/individual/footer/youtube.png" style="width: calc(0.0625vw * 17);">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-nav">
+                    <a href="#" class="roboto-14px-26px-400-0d025em-white">Help</a>
+                    <a href="#" class="roboto-14px-26px-400-0d025em-white">Terms & condition</a>
+                    <a href="#" class="roboto-14px-26px-400-0d025em-white">Privacy</a>
+                </div>
+
+                <p class="roboto-14px-26px-400-0d025em-white">Copyright © 2015 - Tajem Creative</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
